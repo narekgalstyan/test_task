@@ -1,0 +1,208 @@
+body {
+  margin-top: -30px;
+}
+
+.text1, .text2 {
+  font-size: 55px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+
+.child1 {
+  width: 309px;
+  height: 62px;
+  overflow: hidden;
+  top: -166px;
+  left: 175px;
+  color: white;
+  position: relative;
+}
+
+.child2 {
+  width: 402px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  top: -169px;
+  left: 113px;
+  color: white;
+}
+
+.parents:hover .text2 {
+  transform: translateY(40px);
+}
+
+.parents:hover .text1 {
+  transform: translateY(60px);
+}
+
+.parents {
+  left: 350px;
+  height: 725px;
+  overflow: hidden;
+  top: -747px;
+  width: 595px;
+  margin-left: 330px;
+}
+
+.hovBack {
+  width: 597px;
+  transition: 3s;
+  height: 695px;
+  background-color: #F4F4F4;
+  position: relative;
+  transition: 1s;
+  top: 810px;
+}
+
+.child {
+  width: 598px;
+  top: 534px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.miniText {
+  width: 126.25px;
+  height: 10px;
+  /* General/tag */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 10px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: relative;
+  left: 256px;
+  top: 10px;
+  color: #FFFFFF;
+}
+
+.parents:hover .miniText {
+  transform: translateY(20px);
+}
+
+.parents:hover .hovBack {
+  transition-delay: 0.5s;
+  top: -810px;
+}
+
+.txt1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 100%;
+  position: relative;
+  left: 50px;
+  top: 159px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #262626;
+  transition: 1s;
+}
+
+.txt2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 100%;
+  top: 175px;
+  transition: 1s;
+  left: 131px;
+  position: relative;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #262626;
+}
+
+.pic2 {
+  width: 193px;
+  height: 225px;
+  margin-left: 200px;
+  margin-top: -51px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.hovBack:hover .pic2 {
+  transition-delay: 0.5s;
+  opacity: 0.9;
+}
+
+.hoveer3Text {
+  width: 391px;
+  height: 54px;
+  margin-left: 95px;
+  margin-top: 51px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #747474;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.minitxt2 {
+  position: relative;
+  top: 124px;
+  opacity: 0;
+  left: 239px;
+  transition: 1s;
+  text-transform: uppercase;
+}
+
+.hover2 {
+  width: 549px;
+  height: 166px;
+  overflow: hidden;
+  top: 20px;
+  color: white;
+  position: relative;
+}
+
+.hover3 {
+  width: 468px;
+  height: 182px;
+  overflow: hidden;
+  top: -96px;
+  left: 8px;
+  color: white;
+  position: relative;
+}
+
+.hovBack:hover .txt1 {
+  top: 119px;
+  transition-delay: 0.5s;
+}
+
+.hovBack:hover .txt2 {
+  top: 136px;
+  transition-delay: 0.5s;
+}
+
+.hovBack:hover .hoveer3Text {
+  transition-delay: 0.5s;
+  opacity: 0.9;
+}
+
+.hoveer3Text {
+  transition: 1s;
+  opacity: 0;
+}
+
+.hovBack:hover .minitxt2 {
+  transition-delay: 0.5s;
+  opacity: 0.9;
+}
