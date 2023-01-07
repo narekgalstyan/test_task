@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+#logo {
+  text-align: center;
+  padding: 20px;
+}
+
+#search1 {
+  left: 478px;
+  position: relative;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  width: 51px;
+  height: 16px;
+  padding: 9px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 31px;
+}
+
+#nav {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border: 1px solid rgb(245, 236, 236);
+  height: 30px;
+  padding: 8px;
+  z-index: 2;
+  transition: 1s;
+}
+
+main {
+  z-index: 1;
+  top: 3rem;
+  position: relative;
+}
+
+#content3,
+#content2,
+#content1 {
+  display: flex;
+  justify-content: center;
+}
+
+#child1,
+#child2,
+#child3,
+#child4,
+#child5,
+#child6,
+#child7,
+#child8,
+#child8,
+#child9 {
+  margin: 15px;
+  width: 360px;
+  height: 500px;
+}
+
+#arrow1,
+#arrow2,
+#arrow3,
+#arrow4,
+#arrow5,
+#arrow6 {
+  left: -7px;
+  position: relative;
+  top: -2px;
+  cursor: pointer;
+}
+
+h4 {
+  color: red;
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 13px;
+}
+
+#lifeStyle,
+#lifeStyle2,
+#lifeStyle3,
+#lifeStyle4,
+#lifeStyle5,
+#lifeStyle6,
+#lifeStyle7,
+#lifeStyle8,
+#lifeStyle9 {
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 30px;
+}
+
+#name,
+#name2,
+#name3,
+#name4,
+#name5,
+#name6,
+#name7,
+#name8,
+#name9 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9B9B9B;
+}
+
+span {
+  font-weight: 550;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
+
+#lifeText,
+#lifeText2,
+#lifeText3,
+#lifeText4,
+#lifeText5,
+#lifeText6,
+#lifeText7,
+#lifeText8,
+#lifeText9 {
+  font-size: 12px;
+  line-height: 20px;
+  color: #9B9B9B;
+}
+
+#burger {
+  display: none;
+}
+
+#search,
+#hide {
+  display: none;
+}
+
+#burgarMenu {
+  display: none;
+}
+
+#mobsearch {
+  display: none;
+}
+
+@media only screen and (max-width: 769px) and (min-width: 361px) {
+  #search1 {
+    display: block;
+    position: relative;
+    left: 496px;
+    top: -8px;
+    width: 5px;
+  }
+  #logo {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 200px;
+  }
+  #mobarrow1 {
+    left: 57px;
+    position: relative;
+    top: 30px;
+    width: 10px;
+    height: 23px;
+    cursor: pointer;
+  }
+  #mobarrow2 {
+    left: 26px;
+    position: relative;
+    top: 60px;
+    width: 10px;
+    cursor: pointer;
+  }
+  #mobarrow3 {
+    left: 40px;
+    position: relative;
+    top: 102px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+  }
+  #mobarrow4 {
+    left: 42px;
+    position: relative;
+    top: 139px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+  }
+  #mobarrow5 {
+    left: -14px;
+    position: relative;
+    top: 176px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+  }
+  #mobsbuy {
+    top: 200px;
+  }
+  #content3 {
+    display: block;
+    justify-content: center;
+    position: relative;
+    left: -37px;
+    top: -1409px;
+  }
+  #content2 {
+    display: block;
+    justify-content: center;
+    position: relative;
+    left: 354px;
+    top: -1381px;
+  }
+  #content1 {
+    display: block;
+    justify-content: center;
+    position: relative;
+    left: -34px;
+  }
+  #nav2 {
+    display: block;
+  }
+  #burgarMenu {
+    display: block;
+    width: 310px;
+    height: 615px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+  }
+  #burgarMenuChild {
+    width: 310px;
+    height: 615px;
+    position: relative;
+    left: -312px;
+    top: -80px;
+    padding-top: 93px;
+    transition: 1s;
+    background-color: #FFFFFF;
+  }
+  .img {
+    width: 334px;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  #child1 {
+    top: -54px;
+    position: relative;
+    width: 308px;
+  }
+  #child2 {
+    top: -90px;
+    position: relative;
+    width: 308px;
+  }
+  #child3 {
+    position: relative;
+    top: -127px;
+    width: 308px;
+  }
+  #child4 {
+    width: -221px;
+    top: -217px;
+    position: relative;
+  }
+  #child5 {
+    width: 308px;
+    top: -254px;
+    position: relative;
+  }
+  #child6 {
+    width: 308px;
+    top: -291px;
+    position: relative;
+  }
+  #child7 {
+    width: 308px;
+    top: -299px;
+    position: relative;
+  }
+  #child8 {
+    width: 308px;
+    top: -814px;
+    left: 387px;
+    position: relative;
+  }
+  #child9 {
+    top: -835px;
+    left: 191px;
+    position: relative;
+    width: 308px;
+  }
+  #l {
+    width: 149px;
+    position: relative;
+    left: 69px;
+    z-index: 2;
+    top: 17px;
+  }
+  body {
+    width: 200px;
+  }
+  main {
+    position: relative;
+    left: 34px;
+    width: 200px;
+    z-index: 0;
+  }
+  #burgerBtn {
+    position: relative;
+    top: 42px;
+    left: 23px;
+  }
+  #line1 {
+    border: 2px solid;
+    width: 10px;
+  }
+  #line2 {
+    border: 2px solid;
+    width: 10px;
+  }
+  #line3 {
+    border: 2px solid;
+    width: 10px;
+  }
+  #mobx {
+    font-size: 28px;
+    position: relative;
+    left: 276px;
+    top: -30px;
+  }
+  #mobdemos {
+    left: 8px;
+    top: 133px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 259px;
+    padding: 17px;
+  }
+  #mobpost {
+    left: 8px;
+    top: 172px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 262px;
+    padding: 16px;
+  }
+  #mobFeauters {
+    left: 8px;
+    top: 208px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 262px;
+    padding: 16px;
+  }
+  #mobcategoris {
+    left: 8px;
+    top: 244px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 262px;
+    padding: 16px;
+  }
+  #mobshop {
+    left: 7px;
+    top: 281px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 261px;
+    padding: 16px;
+  }
+  #mobsbuy {
+    top: 206px;
+    position: relative;
+    left: -83px;
+    width: 262px;
+    padding: 16px;
+  }
+  #burger {
+    display: flex;
+    position: relative;
+    top: 22px;
+    left: 20px;
+  }
+  #line1 {
+    border: 2px solid;
+    width: 23px;
+    top: 5px;
+    position: relative;
+  }
+  #line2 {
+    border: 2px solid;
+    width: 23px;
+    top: 8px;
+    position: relative;
+  }
+  #line3 {
+    border: 2px solid;
+    width: 23px;
+    top: 11px;
+    position: relative;
+  }
+  #mobLogo {
+    width: 161.28px;
+    height: 24px;
+    top: 4px;
+    left: 26px;
+    position: relative;
+  }
+  #line4 {
+    width: 307px;
+    position: relative;
+    top: 18px;
+    left: 2px;
+    border: 0.5px solid rgb(245, 236, 236);
+    background-color: #000000;
+    border-radius: 20px;
+  }
+  #mobsearch {
+    left: 304px;
+    position: relative;
+    display: block;
+    top: -31px;
+    width: 0;
+  }
+  #hide {
+    display: block;
+    left: 109px;
+    position: relative;
+    top: -26px;
+    font-size: 29px;
+  }
+  #nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #search1 {
+    display: block;
+    position: relative;
+    left: 303px;
+    top: -8px;
+    width: 5px;
+  }
+  #mobarrow1 {
+    left: 57px;
+    position: relative;
+    top: 30px;
+    width: 10px;
+    height: 23px;
+    cursor: pointer;
+  }
+  #mobarrow2 {
+    left: 26px;
+    position: relative;
+    top: 60px;
+    width: 10px;
+    cursor: pointer;
+  }
+  #mobarrow3 {
+    left: 40px;
+    position: relative;
+    top: 102px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+  }
+  #mobarrow4 {
+    left: 42px;
+    position: relative;
+    top: 139px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+  }
+  #mobarrow5 {
+    left: -14px;
+    position: relative;
+    top: 176px;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+  }
+  #mobsbuy {
+    top: 200px;
+  }
+  #content3,
+  #content2,
+  #content1 {
+    display: block;
+    justify-content: center;
+    position: relative;
+    left: -34px;
+  }
+  #nav2 {
+    display: block;
+  }
+  #burgarMenu {
+    display: block;
+    width: 310px;
+    height: 615px;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+  }
+  #burgarMenuChild {
+    width: 310px;
+    height: 615px;
+    position: relative;
+    left: -312px;
+    top: -80px;
+    padding-top: 93px;
+    transition: 1s;
+    background-color: #FFFFFF;
+  }
+  .img {
+    width: 334px;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  #child1 {
+    top: -54px;
+    position: relative;
+    width: 308px;
+  }
+  #child2 {
+    top: -90px;
+    position: relative;
+    width: 308px;
+  }
+  #child3 {
+    position: relative;
+    top: -158px;
+    width: 308px;
+  }
+  #child4 {
+    width: -221px;
+    top: -214px;
+    position: relative;
+  }
+  #child5 {
+    width: 308px;
+    top: -225px;
+    position: relative;
+  }
+  #child6 {
+    width: 308px;
+    top: -262px;
+    position: relative;
+  }
+  #child7 {
+    width: 308px;
+    top: -299px;
+    position: relative;
+  }
+  #child8 {
+    width: 308px;
+    top: -336px;
+    position: relative;
+  }
+  #child9 {
+    top: -373px;
+    position: relative;
+    width: 308px;
+  }
+  #l {
+    width: 149px;
+    position: relative;
+    left: 69px;
+    z-index: 2;
+    top: 17px;
+  }
+  body {
+    width: 200px;
+  }
+  main {
+    position: relative;
+    left: 34px;
+    width: 200px;
+    z-index: 0;
+  }
+  #burgerBtn {
+    position: relative;
+    top: 42px;
+    left: 23px;
+  }
+  #line1 {
+    border: 2px solid;
+    width: 10px;
+  }
+  #line2 {
+    border: 2px solid;
+    width: 10px;
+  }
+  #line3 {
+    border: 2px solid;
+    width: 10px;
+  }
+  #mobx {
+    font-size: 28px;
+    position: relative;
+    left: 276px;
+    top: -30px;
+  }
+  #mobdemos {
+    left: 8px;
+    top: 133px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 259px;
+    padding: 17px;
+  }
+  #mobpost {
+    left: 8px;
+    top: 172px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 262px;
+    padding: 16px;
+  }
+  #mobFeauters {
+    left: 8px;
+    top: 208px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 262px;
+    padding: 16px;
+  }
+  #mobcategoris {
+    left: 8px;
+    top: 244px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 262px;
+    padding: 16px;
+  }
+  #mobshop {
+    left: 7px;
+    top: 281px;
+    position: absolute;
+    border-bottom: 1px solid rgb(245, 236, 236);
+    width: 261px;
+    padding: 16px;
+  }
+  #mobsbuy {
+    top: 206px;
+    position: relative;
+    left: -83px;
+    width: 262px;
+    padding: 16px;
+  }
+  #burger {
+    display: flex;
+    position: relative;
+    top: 22px;
+    left: 20px;
+  }
+  #line1 {
+    border: 2px solid;
+    width: 23px;
+    top: 5px;
+    position: relative;
+  }
+  #line2 {
+    border: 2px solid;
+    width: 23px;
+    top: 8px;
+    position: relative;
+  }
+  #line3 {
+    border: 2px solid;
+    width: 23px;
+    top: 11px;
+    position: relative;
+  }
+  #mobLogo {
+    width: 161.28px;
+    height: 24px;
+    top: 4px;
+    left: 26px;
+    position: relative;
+  }
+  #line4 {
+    width: 307px;
+    position: relative;
+    top: 18px;
+    left: 2px;
+    border: 0.5px solid rgb(245, 236, 236);
+    background-color: #000000;
+    border-radius: 20px;
+  }
+  #mobsearch {
+    left: 304px;
+    position: relative;
+    display: block;
+    top: -31px;
+    width: 0;
+  }
+  #hide {
+    display: block;
+    left: 109px;
+    position: relative;
+    top: -26px;
+    font-size: 29px;
+  }
+  #nav {
+    display: none;
+  }
+}
